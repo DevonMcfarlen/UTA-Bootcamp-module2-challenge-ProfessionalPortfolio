@@ -76,7 +76,7 @@ p {
 
 #labels {
     display: flex;
-    flex-basis: 25%;
+    flex-basis: 10%;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
@@ -90,36 +90,84 @@ p {
 
 #about-me {
     display: flex;
-    flex-basis: 75%;
+    flex-basis: 90%;
     margin-bottom: 20px;
     padding: 50px;
     background-color: var(--darker-purple-bg-color);
     color: white;
 }
 
+#about-me p {
+    font-size: 24px;
+}
+
 #work {
     display: flex;
-    flex-basis: 75%;
+    flex-wrap: wrap;
+    flex-basis: 90%;
     margin-bottom: 20px;
     padding: 50px;
+    justify-content: center;
+    align-items: center;
     background-color: var(--darker-purple-bg-color);
     color: white;
 }
 
 #contact-me {
     display: flex;
-    flex-basis: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 90%;
     margin-bottom: 20px;
     padding: 50px;
     background-color: var(--darker-purple-bg-color);
     color: white;
 }
 
+#contact-me a {
+    font-size: 32px;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+}
+
 #resume {
     display: flex;
-    flex-basis: 75%;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 90%;
     margin-bottom: 20px;
     padding: 50px;
     background-color: var(--darker-purple-bg-color);
     color: white;
+}
+
+#resume a {
+    font-size: 32px;
+    color: white;
+}
+
+.main-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-image img {
+    flex-shrink: 1;
+    width: 80vw;
+    height: 60vh;
+    margin: 20px;
+}
+
+.sub-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+.sub-images img {
+    width: 25vw;
+    height: 25vh;
+    margin: 20px;
 }
