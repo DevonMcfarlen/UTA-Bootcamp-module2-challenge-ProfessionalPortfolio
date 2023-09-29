@@ -11,7 +11,7 @@ and move around properly.
 
 ## Usage
 
-Link to the webpage: https://devonmcfarlen.github.io/UTA-bootcamp-module1-HTML-CSS-GIT/
+Link to the webpage: https://devonmcfarlen.github.io/UTA-Bootcamp-module2-challenge-ProfessionalPortfolio/
 
 ![alt text](./assets/images/website-screenshot.png)
 
